@@ -37,7 +37,15 @@ const Home = () => {
       document.getElementsByClassName('more')[0].style.gridTemplateColumns = '1fr 1fr 1fr 1fr'
       document.getElementsByClassName('more')[0].style.paddingLeft = '9.5vw'
       document.getElementsByClassName('more')[0].style.width = '92vw'
-      document.getElementsByClassName('home1')[0].style.fontSize = '1rem'
+    
+
+      setView(false);
+    }
+    else {
+      document.getElementsByClassName('side')[0].style.width = '13.1vw'
+      document.getElementsByClassName('more')[0].style.gridTemplateColumns = '1fr 1fr 1fr'
+      document.getElementsByClassName('more')[0].style.paddingLeft = '16.5vw'
+        document.getElementsByClassName('home1')[0].style.fontSize = '1rem'
       document.getElementsByClassName('home2')[0].style.fontSize = '1rem'
       document.getElementsByClassName('home3')[0].style.fontSize = '1rem'
       document.getElementsByClassName('library')[0].style.fontSize = '1rem'
@@ -51,13 +59,6 @@ const Home = () => {
       document.getElementsByClassName('c3')[0].style.fontSize = '1rem'
       document.getElementsByClassName('c4')[0].style.fontSize = '1rem'
       document.getElementsByClassName('c5')[0].style.fontSize = '1rem'
-
-      setView(false);
-    }
-    else {
-      document.getElementsByClassName('side')[0].style.width = '13.1vw'
-      document.getElementsByClassName('more')[0].style.gridTemplateColumns = '1fr 1fr 1fr'
-      document.getElementsByClassName('more')[0].style.paddingLeft = '16.5vw'
      
   
       setView(true);
